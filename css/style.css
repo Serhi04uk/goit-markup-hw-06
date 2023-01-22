@@ -646,11 +646,12 @@ button {
   border-radius: 4px;
   color: var(--accent-color-upgrade-one);
   border: 1px solid var(--accent-color-upgrade-six);
+  transition: background-color var(--transition);
 }
 
 .footer-button:hover,
 .footer-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -814,6 +815,7 @@ button {
   border: 1.25px solid #2e2f42;
   border-radius: 2px;
   margin-right: 8px;
+  transition: background-color var(--transition);
 }
 
 .modal-form-message {
@@ -878,10 +880,11 @@ button {
   border-radius: 4px;
   color: var(--accent-color-upgrade-one);
   border: 1px solid var(--accent-color-upgrade-six);
+  transition: background-color var(--transition);
 }
 
 .modal-form-submit:hover {
-  background: var(--accent-color-upgrade-six);
+  background-color: var(--accent-color-upgrade-six);
 }
 
 .block-modal-form-submit {
