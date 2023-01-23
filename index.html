@@ -458,36 +458,25 @@
         </div>
         <div class="div-footer-two">
           <p class="paragra-footer-two">Subscribe</p>
-          <ul class="list social-footer">
-            <li>
-              <label>
-                <span>
-                  <input
-                    class="label-footer"
-                    type="email"
-                    name="user_email"
-                    placeholder="E-mail"
-                    required
-                  />
-                </span>
-              </label>
-            </li>
-            <li>
-              <div class="">
-                <button
-                  class="footer-button footer-button-svg-flex"
-                  type="submit"
-                >
-                  Subscribe
-                  <svg class="svg-footer" Width="24" Height="24">
-                    <use
-                      href="./Images/icons/symbol-defs.svg#icon-Frame-3"
-                    ></use>
-                  </svg>
-                </button>
-              </div>
-            </li>
-          </ul>
+
+          <form class="social-footer">
+            <label>
+              <input
+                class="label-footer"
+                type="email"
+                name="user_email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+
+            <button class="footer-button footer-button-svg-flex" type="submit">
+              Subscribe
+              <svg class="svg-footer" Width="24" Height="24">
+                <use href="./Images/icons/symbol-defs.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
       <div class="backdrop is-hidden" data-modal>
@@ -570,8 +559,11 @@
                 class="modal-form-chek visually-hidden"
               />
               <label for="user-policy" class="modal-form-chek-desc"
-                >I accept the terms and conditions of the
-                <a href="">Privacy Policy</a></label
+                >I accept the terms and conditions of the&nbsp;<a
+                  class="send-form-modal"
+                  href=""
+                  >Privacy Policy</a
+                ></label
               >
             </div>
             <div class="block-modal-form-submit">

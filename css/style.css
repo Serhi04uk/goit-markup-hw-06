@@ -525,15 +525,15 @@ button {
 .div-footer {
   margin-left: 120px;
 }
+
 .div-footer-two {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .social-footer {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
-  width: 208px;
 }
 
 .social-footer-link {
@@ -679,6 +679,7 @@ button {
   color: #ffffff;
   font-size: 12px;
   line-height: 24px;
+  transition: border-color var(--transition);
 }
 
 .label-footer:focus {
@@ -890,6 +891,10 @@ button {
 .block-modal-form-submit {
   display: flex;
   justify-content: center;
+}
+
+.send-form-modal {
+  color: #4d5ae5;
 }
 
 /* ICONS */
