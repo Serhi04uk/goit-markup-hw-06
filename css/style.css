@@ -523,17 +523,20 @@ button {
 }
 
 .div-footer {
-  margin-left: 120px;
-}
-
-.div-footer-two {
   margin-left: auto;
+  margin-right: auto;
 }
 
 .social-footer {
   margin-top: 16px;
+  width: 208px;
   display: flex;
   justify-content: space-between;
+}
+
+.social-footer-two {
+  margin-top: 16px;
+  display: flex;
 }
 
 .social-footer-link {
